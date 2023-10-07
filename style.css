@@ -11,7 +11,7 @@ header {
   background-color: #1F2937;
   display: flex;
   flex-direction: column;
-  padding: 0px 150px;
+  padding: 0px 140px;
 }
 
 .nav-bar {
@@ -40,3 +40,40 @@ header {
   text-decoration: none;
 }
 
+.hero-main {
+  padding: 120px 0px;;
+  display: flex;
+  gap: 40px;
+}
+
+.hero-main div {
+  min-height: 200px;
+  flex: 1;
+}
+
+.hero-main .left {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.hero-main .left h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FaF8;
+}
+
+.hero-main .left p{
+  font-size: 16px;
+  color: #E5E7EB;
+  margin-bottom: 8px;;
+}
+
+.hero-main .left button {
+  background-color: #3882F6;
+  color: #F9FaF8;
+  font-weight: bolder;
+  padding: 6px 24px;
+  border: none;
+  border-radius: 5px;
+}
