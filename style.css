@@ -1,0 +1,7 @@
+* {
+  /*remove default margin and padding from all elems*/
+  margin: 0px; 
+  padding: 0px;
+  box-sizing: border-box;
+}
+
