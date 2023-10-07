@@ -77,3 +77,11 @@ header {
   border: none;
   border-radius: 5px;
 }
+
+.hero-main .right {
+  background-color: grey;
+  color: #F9FaF8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
