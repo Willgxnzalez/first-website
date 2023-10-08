@@ -153,13 +153,14 @@ main .cta-section {
   padding: 32px 64px;
   border-radius: 10px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-
 }
 
 main .cta-section .text {
   flex: 1;
   color: #F9FAF8;
+  min-width: 200px;
 }
 main .cta-section .subtext {
   font-size: 10px;
