@@ -89,14 +89,15 @@ header {
 
 main {
   /*border: 1px dashed red; */
+  background-color: #F9FAF8;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
 }
 
 main .img-section {
   padding: 64px;
-  background-color: #F9FAF8;
 }
 
 main h2 {
@@ -143,4 +144,31 @@ main .quote-section .author {
   text-align: end;
   font-size: 18px;
   font-weight: bold;
+}
+
+main .cta-section {
+  background-color: #3882F6;
+  width: 60%;
+  margin: 64px 0px;
+  padding: 32px 64px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+
+}
+
+main .cta-section .text {
+  flex: 1;
+  color: #F9FAF8;
+}
+main .cta-section .subtext {
+  font-size: 10px;
+}
+
+main .cta-section button {
+  padding: 2px 24px;
+  background: none;
+  color: #F9FAF8;
+  border: 2px solid #F9FAF8;
+  border-radius: 5px;
 }
